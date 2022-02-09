@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="jiho.pub.navigation.ui.fragment.BlankFragment"
+        android:label="BlankFragment"
+        tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/tab2Fragment"
+        android:name="jiho.pub.navigation.ui.fragment.Tab2Fragment"
+        android:label="Tab2Fragment"
+        tools:layout="@layout/fragment_tab2" />
+    <action
+        android:id="@+id/action_global_blankFragment"
+        app:destination="@id/blankFragment"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    <action
+        android:id="@+id/action_global_tab2Fragment"
+        app:destination="@id/tab2Fragment"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+</navigation>

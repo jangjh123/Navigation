@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/blankFragment"
+        android:icon="@drawable/ic_baseline_brightness_1_24"
+        android:title="First"/>
+    <item
+        android:id="@+id/tab2Fragment"
+        android:icon="@drawable/ic_baseline_brightness_2_24"
+        android:title="Second"/>
+</menu>
